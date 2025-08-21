@@ -27,4 +27,4 @@ Focus areas:
 - Crop field boundary detection and classification using ML + satellite data
 - Autonomous systems research and motion/control
 
-I enjoy tackling challenging, end-to-end problems and collaborating in teams. I'm currently open to roles in Robotics, Autonomous Systems, and Embedded/Controls.
+I enjoy tackling challenging, end-to-end problems and collaborating in teams. I'm currently open to roles in Robotics, Autonomous Systems, and Embedded/Controls and More to Be added.
