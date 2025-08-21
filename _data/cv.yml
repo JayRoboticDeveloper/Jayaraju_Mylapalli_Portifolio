@@ -1,97 +1,88 @@
-- title: General Information
-  type: map
+---
+- title: Profile
+  type: list
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - Mechatronics Engineer specialized in Robotics, Automation, ML, and Embedded Systems. Strong in problem-solving, teamwork, and communication.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.Tech, Robotics and Automation
+      institution: KL University, Vijayawada, India
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - CGPA 9.49
+        - Adaptive motion control, IIoT 4.0, Non-linear systems and control optimization
+        - MATLAB simulation and ML algorithms; Sensors, Drives, Actuators; Optimization algorithms for autonomous systems
+    - title: B.Tech, Mechanical Engineering
+      institution: Vizag Institute of Technology, Visakhapatnam, India
+      year: 2017 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - CGPA 7.7
 
-- title: Experience
+- title: Projects & Research
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Swarm Robotics — algorithms in simulation and basic practical implementation
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Reviewed computational swarm intelligence and applied algorithms to swarm robotics.
+        - Emphasized decentralized, robust, and self-organized behaviors.
+    - title: 2-DOF Robotic Arm using Arduino and Servo Motors
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Built joystick-controlled planar arm; implemented precise servo motion control.
+        - Documented kinematics, degrees, and positioning control.
+    - title: Crop Field Boundary Detection and Classification (SNAP + QGIS + ML)
+      year: 2022
       description:
+        - Used Sentinel/Landsat/MODIS data and ML for crop classification and boundary detection.
+        - Estimated inputs such as seeds, pesticides, insecticides, and fertilizers.
+    - title: Autonomous Vehicle — technical research
+      year: 2021
+      description:
+        - Explored autonomy concepts, including imitation and inference-based methods.
+    - title: High-strength AA7xxx + 1% Sc aluminium alloy — tensile and wear behaviour (Precipitation Hardening)
+      year: 2020
+      description:
+        - Objective to increase strength of joints for robotics/mechanical links.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Certifications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - UDS Braking-System CAN Communication — Microelectronics Research Group (Participation)
+    - IoT & Machine Learning for Automation — IIIT Tiruchirappalli (Workshop)
+    - Future Wireless Systems (Participation)
+    - DIFACTO — Basic Industrial Robotics and Automation
+    - Application of Statistics in Machine Learning and Experiment — International Webinar (Participation)
+    - Fundamentals of BIW — Skill-Lync (Participation)
+
+- title: Publications
+  type: list
+  contents:
+    - A Detailed Review of Swarm Robotics and its Significance — IEEE conference paper.
+    - Crop Field Boundary Detection and Classification using Machine Learning.
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - C, Python
+    - title: Tools & Platforms
+      items:
+        - MATLAB/Simulink, CATIA, ANSYS, QGIS, SNAP, RoboDK, ROS, RTOS
+    - title: Embedded & Protocols
+      items:
+        - Embedded C, CAN, SPI, UART, RS232, I2C, LIN, VAN
+    - title: Robotics & Systems
+      items:
+        - DNR, BMS, Motor Controller, Battery Cooling System
+    - title: Core strengths
+      items:
+        - Problem-solving, creativity, teamwork, communication, production-quality Python
+
+- title: Interests
+  type: list
+  contents:
+    - Robotics, Automation, Embedded Systems, Autonomous Vehicles
