@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jayroboticdeveloper.github.io/Jayaraju_Mylapalli_Portifolio/sitemap.xml
